@@ -1,0 +1,25 @@
+.Header {
+    padding: 1rem 4.5rem;
+    border-bottom: 1px solid rgba(189, 189, 192, 0.2);
+    display: inline-flex;
+}
+
+.Header__profileInfo {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+    flex-flow: column;
+    padding: 1rem 2rem;
+}
+
+.Header img {
+    border-radius: 50%;
+    width: 20%;
+    height: 60%;
+    margin-top: 5%;
+}
+
+.Header__name {
+    color: #fff;
+}
