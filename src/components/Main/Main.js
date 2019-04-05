@@ -1,10 +1,8 @@
-import React from 'react';
-import './Main.css';
+import React from "react";
+import "./Main.css";
 
-const Main = (props) => {
-    return (
-        <main className="Main">Main Stuff</main>
-    )
-}
+const Main = () => {
+    return <main className="Main">Main Stuff</main>;
+};
 
 export default Main;
