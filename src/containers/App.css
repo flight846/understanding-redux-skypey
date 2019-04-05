@@ -3,3 +3,17 @@
     display: flex;
     color: rgba(189, 189, 192, 1);
 }
+/* width */
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgba(32, 32, 35, 1);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
